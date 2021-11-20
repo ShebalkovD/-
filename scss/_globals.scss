@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Yanone Kaffeesatz;
+    font-size:  18px;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 72px;
+}
+
+h2{
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #fff;
+}
+
+
