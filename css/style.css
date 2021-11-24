@@ -203,6 +203,28 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 400;
+  position: relative;
+}
+.nav__dropdown {
+  background-color: #fff;
+  color: #343633;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  right: 405px;
+  margin-top: 50px;
+  display: none;
+}
+.nav__dropdown-item {
+  color: #343633;
+  width: 150px;
+  padding: 5px 10px;
+}
+.nav__dropdown-item a {
+  color: #343633;
+}
+.nav__dropdown-item:hover {
+  background-color: #CCC;
 }
 .nav__list {
   margin-right: 70px;
@@ -499,4 +521,13 @@ h2 {
   font-size: 18px;
   line-height: 21px;
   color: #3C403D;
+}
+
+.active {
+  -webkit-text-decoration: underline solid 2px #fff;
+          text-decoration: underline solid 2px #fff;
+}
+
+.dp-active {
+  display: block;
 }
