@@ -1,6 +1,7 @@
 const navItem  = document.getElementById('ndpm')
 const dpMenuList = document.getElementById('dp')
 const navItemDelivery = document.getElementById('ndpm-del')
+
 navItem.onclick = () => {
     
     if(navItem.classList.contains('active')){
@@ -10,10 +11,6 @@ navItem.onclick = () => {
         navItem.classList.add('active')
         dpMenuList.classList.add('dp-active')
     }
-
-    
-        
-    
 }
 
 navItemDelivery.onclick = () => {
